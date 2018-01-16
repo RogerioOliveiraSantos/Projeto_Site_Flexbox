@@ -298,3 +298,94 @@ span {
 a {
 	text-decoration: none;
 }
+.menuMobile {
+	display: none;
+	width: 40px;
+	height: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px; 
+	margin-right: 20px;
+}
+.mn_line {
+	height: 3px;
+	background-color: #39AAE1;
+}
+
+@media (max-width: 600px) {
+
+	.banner_headline h1 {
+		font-size: 55px;
+		padding: 20px;
+		margin-top: 20px;
+	}
+	.banner_headline h2 {
+		font-size: 17px;
+		padding: 20px;
+	}
+	.banner_title {
+		font-size: 17px;
+	}
+	.banner_date {
+		font-size: 12px;
+	}
+	.banner_options a {
+		font-size: 12px;
+	}
+	.fm_1, .fm_2, .fm_3 {
+		font-size: 17px;
+	}
+	.fm_1_1 {
+		font-size: 12px;
+	}
+	.container {
+		flex-direction: column;  
+	}
+	#geral section,
+	#geral aside,
+	.footer_area {
+		padding: 20px;
+	} 
+	.widget_title_text {
+		font-size: 17px;
+	}
+	.widget_body1,
+	.footer_end,
+	.footer_enditem, 
+	.widget_body2, 
+	.widget_body3 {
+		font-size: 12px;
+	}
+	.footer_year {
+		font-size: 10px;
+	}
+	span {
+		font-size: 12px;
+	}
+	.footer_copy {
+		font-size: 10px;	
+		padding-left: 20px; 
+	}
+	header .container {
+		flex-direction: row;
+	}
+	nav ul {
+		flex-direction: column;
+		display: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	header {
+		height: auto;
+	}
+	.logo {
+		padding-left: 20px;
+	}
+	.menuMobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around; 
+	}
+}
+
